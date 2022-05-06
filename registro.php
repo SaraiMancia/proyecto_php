@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-   <h1> Datos Registrados</h1>
+   <h1> Datos Registrados </h1>
    <?php 
    if (isset($_REQUEST["dui"]))
    { $d=$_REQUEST["dui"];
@@ -22,8 +22,8 @@
     echo"<br>Tipo de empleo:".$ep;
     $direccion=$_REQUEST["direccion"];
     echo"<br>Direccion:".$direccion;
-    $mun=$_REQUEST["municipio"];
-    echo"<br>Municipio:".$mun;
+    $mu=$_REQUEST["municipio"];
+    echo"<br>Municipio:".$mu;
     $dep=$_REQUEST["depto"];
     echo"<br>Departamento:".$dep;
     $mail=$_REQUEST["email"];
