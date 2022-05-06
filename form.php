@@ -16,7 +16,7 @@
         Sexo:<select id="sexo" name="sexo">
             <option 
             value="Femenino">Femenino</option>
-            <option value="masculino"> Masculino</option>
+            <option value="Masculino"> Masculino</option>
 </select>
             <p>Tipo de empleo:</p> <input type="radio" id="trabajo" name="empleo" value="Informal">
   <label for="informal">Informal</label>
@@ -27,7 +27,7 @@
 
         Direccion:<input type="text" name="direccion" required="true" maxlength="40"><br><br>
         Municipio:<select id="mun" name="municipio">
-            <option value="ss">San Salvador</option>
+            <option value="San Salvador">San Salvador</option>
             <option value="la paz">Mejicanos</option>
             <option value="la paz">San Marcos</option>
             <option value="la paz">Apopa</option>
